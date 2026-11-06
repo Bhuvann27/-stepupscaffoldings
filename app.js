@@ -29,3 +29,8 @@ var l=v("l"),w=v("w"),h=v("h");if(!(l>0&&w>0&&h>0)){o.textContent="Please enter 
 var p=2*(l+w),sides=+f.e.value,len=sides==4?p:sides>=3?p-Math.min(l,w):sides==2?l+w:Math.max(l,w),a=Math.round(len*h);
 o.innerHTML="Indicative coverage: about <b>"+a.toLocaleString("en-IN")+" sq ft</b> ("+Math.round(len)+" ft run x "+h+" ft). Preliminary only: real quantity depends on geometry, bays, lifts, openings, ground and safety needs. <a href='#enquiry'>Submit for a professional assessment</a>."});
 })();
+(function(){var tabs=document.querySelectorAll("[data-tab]"),ps=document.querySelectorAll("[data-panel]");
+function open(n){tabs.forEach(function(t){t.setAttribute("aria-selected",t.dataset.tab==n)});ps.forEach(function(p){p.hidden=p.dataset.panel!=n})}
+tabs.forEach(function(t){t.addEventListener("click",function(){open(t.dataset.tab)})});
+document.querySelectorAll("[data-open]").forEach(function(a){a.addEventListener("click",function(){open(a.dataset.open)})});open("enquiry");
+var ig=document.getElementById("ig");if(window.STEPUP.INSTAGRAM){ig.href=window.STEPUP.INSTAGRAM;ig.hidden=false}})();

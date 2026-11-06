@@ -5,5 +5,6 @@ window.STEPUP = {
   ACCESS_KEY: "",              // Web3Forms access key (leave "" for Formspree)
   PHONE: "[ADD PHONE NUMBER]",
   WHATSAPP: "",                // digits only with country code, e.g. 91XXXXXXXXXX
+  INSTAGRAM: "",               // full Instagram profile URL
   EMAIL: "[ADD EMAIL]"
 };
