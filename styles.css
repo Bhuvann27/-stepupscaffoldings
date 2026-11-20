@@ -82,3 +82,11 @@ header.glass{background:linear-gradient(150deg,rgba(255,255,255,.9),rgba(255,255
 .brand b{font:700 17px/1 "Unbounded",system-ui,sans-serif;letter-spacing:.05em;color:#111318}
 .brand small{display:block;font:600 8.5px/1 "Outfit",system-ui,sans-serif;letter-spacing:.46em;margin-top:6px;color:#0f766e;padding-left:1px}
 @media(max-width:380px){.brand b{font-size:15px}.brand small{letter-spacing:.38em}}
+
+/* ===== Brand size + premium finish v4 ===== */
+header.glass{padding:8px 10px 8px 10px}
+.brand{gap:13px}.brand img{width:48px;height:48px;border-radius:14px}
+.brand span{padding-left:13px;border-left:1px solid rgba(17,19,24,.14)}
+.brand b{font-size:24px;letter-spacing:.06em;font-weight:700;background:linear-gradient(135deg,#0b0c10 30%,#3a4060 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#111318}
+.brand small{font-size:10px;letter-spacing:.42em;margin-top:7px;background:linear-gradient(90deg,#0f766e,#14b88e);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;font-weight:600}
+@media(max-width:400px){.brand img{width:42px;height:42px}.brand{gap:10px}.brand span{padding-left:10px}.brand b{font-size:20px}.brand small{font-size:8.5px;letter-spacing:.38em}}
