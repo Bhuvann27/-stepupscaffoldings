@@ -4,4 +4,4 @@ Contact: phone/WhatsApp 7406886226, email stepupscaffoldingsolutions@gmail.com (
 Palette: graphite #111318, safety orange #f26a21, off-white #f7f7f5 (site). Logo (img/mark.svg) keeps its original navy/amber.
 Not included yet: sitemap.xml (needs final domain), real project photos.
 
-Service area: Bengaluru, Ramanagara, Mysuru and surrounding towns (edit the Service areas section in index.html to add or remove places).
+Service area: Bengaluru and surrounding high-growth regions (Nelamangala, Ramanagara, Mysuru road, etc.) (edit the Service areas section in index.html to add or remove places).
