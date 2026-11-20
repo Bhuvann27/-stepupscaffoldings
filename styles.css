@@ -103,3 +103,7 @@ box-shadow:0 0 0 1px rgba(255,255,255,.2),0 12px 30px rgba(0,0,0,.25),inset 0 1p
 .cc svg{margin-bottom:10px;color:#7ff5d6}.cc b{font:700 19px var(--sora)}.cc span{font-weight:600;font-size:15px}.cc em{font-style:normal;font-size:13px;color:#b9bfd0;margin-top:6px}
 .cc.main{background:linear-gradient(135deg,#6af2cf,#14b88e 60%,#0e9a76);color:#04201a;box-shadow:0 14px 36px rgba(45,212,167,.45),inset 0 1px 0 rgba(255,255,255,.6)}.cc.main svg{color:#04201a}.cc.main em{color:#08392e}
 @media(hover:hover){.cc:hover{transform:translateY(-4px)}}.cc:active{transform:scale(.98)}
+
+/* ===== Brand subline bigger v6 ===== */
+.brand small{font-size:13px;letter-spacing:.2em;margin-top:6px;font-weight:600}
+@media(max-width:400px){.brand small{font-size:10.5px;letter-spacing:.2em}}
